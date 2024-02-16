@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="icon" href="/src/logo.png" type="logo">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/themes/prism.min.css">
+  </head>
+  <body>
+    <div class="content">
+        <header class="border-light-subtle bg-opacity-10 border border-info border-buttom-0">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <a class="navbar-brand" href="#">
+                            <img width="60" height="50" src="./src/logo.png" alt="Logo">
+                        </a>
+                        <form class="d-flex" role="search">
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-search"></i></span>
+                                <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                            </div>
+                        </form>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class=" icon nav-item">
+                                <a class="edit nav-link active" aria-current="page" href="#"><i class=" edit bi bi-pencil-square"></i>  Write</a>
+                            </li>
+                            <li class=" icon nav-item">
+                                <a class="nav-link" href="#"><i class="bi bi-bell"></i></a>
+                            </li>
+                            <li class="icon nav-item">
+                                <a class="nav-link disabled" aria-disabled="true" href="#"><img class="image" width="32" height="32" src="./src/user.jpeg" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        
+        </header>
+
+        <div class="title">
+            <h1>React & Javascript Optimization Techniques</h1>
+        </div>
+
+        <div>
+            <div class="info">
+                <p>
+                    <a class="name" href=""><i class="bi bi-person-circle"></i> Rafael Rojas 
+                        ·
+                        </a><a class="follow" href="">Follow</a>
+                    <br>
+
+                    Published in <a class="name" href="">Globant</a>   21 min read    Jan 16, 2024
+                    <br>
+                </p>
+            </div>
+
+            <div class="icons p-3 border-light-subtle bg-opacity-10 border-bottom border-top">
+                <div>
+                    <button type="button" class="btn" data-bs-toggle="button"><svg width="24" height="24" viewBox="0 0 24 24" aria-label="clap"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.37.83L12 3.28l.63-2.45h-1.26zM13.92 3.95l1.52-2.1-1.18-.4-.34 2.5zM8.59 1.84l1.52 2.11-.34-2.5-1.18.4zM18.52 18.92a4.23 4.23 0 0 1-2.62 1.33l.41-.37c2.39-2.4 2.86-4.95 1.4-7.63l-.91-1.6-.8-1.67c-.25-.56-.19-.98.21-1.29a.7.7 0 0 1 .55-.13c.28.05.54.23.72.5l2.37 4.16c.97 1.62 1.14 4.23-1.33 6.7zm-11-.44l-4.15-4.15a.83.83 0 0 1 1.17-1.17l2.16 2.16a.37.37 0 0 0 .51-.52l-2.15-2.16L3.6 11.2a.83.83 0 0 1 1.17-1.17l3.43 3.44a.36.36 0 0 0 .52 0 .36.36 0 0 0 0-.52L5.29 9.51l-.97-.97a.83.83 0 0 1 0-1.16.84.84 0 0 1 1.17 0l.97.97 3.44 3.43a.36.36 0 0 0 .51 0 .37.37 0 0 0 0-.52L6.98 7.83a.82.82 0 0 1-.18-.9.82.82 0 0 1 .76-.51c.22 0 .43.09.58.24l5.8 5.79a.37.37 0 0 0 .58-.42L13.4 9.67c-.26-.56-.2-.98.2-1.29a.7.7 0 0 1 .55-.13c.28.05.55.23.73.5l2.2 3.86c1.3 2.38.87 4.59-1.29 6.75a4.65 4.65 0 0 1-4.19 1.37 7.73 7.73 0 0 1-4.07-2.25zm3.23-12.5l2.12 2.11c-.41.5-.47 1.17-.13 1.9l.22.46-3.52-3.53a.81.81 0 0 1-.1-.36c0-.23.09-.43.24-.59a.85.85 0 0 1 1.17 0zm7.36 1.7a1.86 1.86 0 0 0-1.23-.84 1.44 1.44 0 0 0-1.12.27c-.3.24-.5.55-.58.89-.25-.25-.57-.4-.91-.47-.28-.04-.56 0-.82.1l-2.18-2.18a1.56 1.56 0 0 0-2.2 0c-.2.2-.33.44-.4.7a1.56 1.56 0 0 0-2.63.75 1.6 1.6 0 0 0-2.23-.04 1.56 1.56 0 0 0 0 2.2c-.24.1-.5.24-.72.45a1.56 1.56 0 0 0 0 2.2l.52.52a1.56 1.56 0 0 0-.75 2.61L7 19a8.46 8.46 0 0 0 4.48 2.45 5.18 5.18 0 0 0 3.36-.5 4.89 4.89 0 0 0 4.2-1.51c2.75-2.77 2.54-5.74 1.43-7.59L18.1 7.68z"></path></svg> 337 </button>
+                    <button type="button" class="btn" data-bs-toggle="button"><i class="bi bi-chat"></i> 9</button>
+                </div>
+                <div>
+                    <button type="button" class="btn" data-bs-toggle="button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="le"><path d="M17.5 1.25a.5.5 0 0 1 1 0v2.5H21a.5.5 0 0 1 0 1h-2.5v2.5a.5.5 0 0 1-1 0v-2.5H15a.5.5 0 0 1 0-1h2.5v-2.5zm-11 4.5a1 1 0 0 1 1-1H11a.5.5 0 0 0 0-1H7.5a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V5.75z" fill="#000"></path></svg></button>
+                    <button type="button" class="btn" data-bs-toggle="button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 12a9 9 0 1 1 18 0 9 9 0 0 1-18 0zm9-10a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm3.38 10.42l-4.6 3.06a.5.5 0 0 1-.78-.41V8.93c0-.4.45-.63.78-.41l4.6 3.06c.3.2.3.64 0 .84z" fill="currentColor"></path></svg></button>
+                    <button type="button" class="btn" data-bs-toggle="button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.22 4.93a.42.42 0 0 1-.12.13h.01a.45.45 0 0 1-.29.08.52.52 0 0 1-.3-.13L12.5 3v7.07a.5.5 0 0 1-.5.5.5.5 0 0 1-.5-.5V3.02l-2 2a.45.45 0 0 1-.57.04h-.02a.4.4 0 0 1-.16-.3.4.4 0 0 1 .1-.32l2.8-2.8a.5.5 0 0 1 .7 0l2.8 2.8a.42.42 0 0 1 .07.5zm-.1.14zm.88 2h1.5a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-10a2 2 0 0 1 2-2H8a.5.5 0 0 1 .35.14c.1.1.15.22.15.35a.5.5 0 0 1-.15.35.5.5 0 0 1-.35.15H6.4c-.5 0-.9.4-.9.9v10.2a.9.9 0 0 0 .9.9h11.2c.5 0 .9-.4.9-.9V8.96c0-.5-.4-.9-.9-.9H16a.5.5 0 0 1 0-1z" fill="currentColor"></path></svg></button>
+                    <button type="button" class="btn" data-bs-toggle="button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.39 12c0 .55.2 1.02.59 1.41.39.4.86.59 1.4.59.56 0 1.03-.2 1.42-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.6-1.41A1.93 1.93 0 0 0 6.4 10c-.55 0-1.02.2-1.41.59-.4.39-.6.86-.6 1.41zM10 12c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.54 0 1.02-.2 1.4-.59.4-.39.6-.86.6-1.41 0-.55-.2-1.02-.6-1.41a1.93 1.93 0 0 0-1.4-.59c-.55 0-1.04.2-1.42.59-.4.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.57 1.41.4.4.88.59 1.43.59.57 0 1.04-.2 1.43-.59.39-.39.57-.86.57-1.41 0-.55-.2-1.02-.57-1.41A1.93 1.93 0 0 0 17.6 10c-.55 0-1.04.2-1.43.59-.38.39-.57.86-.57 1.41z" fill="currentColor"></path></svg></button>
+                </div>
+            </div>
+
+        <div class="code">
+            <img class="mt-4" width="700" height="467" src="./src/code.jpeg" alt="">
+        </div>
+
+        <article class="article">
+            <p class=" texto 1h-base">
+                When we begin a project, we tend to focus on things like scalability,
+                usability, availability, security, and others. But, as the application grows, we
+                may observe a decline in its speed and performance. It is often only at this point 
+                that we recognize the need for optimization.
+            </p>
+            <p class=" texto 1h-base">
+                In this article, we will present some of the most common techniques for optimizing 
+                code, which can be implemented in any application; we will also show optimization
+                techniques using sample code written in <a href="#" class="text-reset">JavaScript</a> and <a href="#" class="text-reset">React.</a> The following techniques 
+                are gonna be covered:
+            </p>
+
+            <ul>
+                <li>Debouncing</li>
+                <li>Throttling</li>
+                <li>Memoization</li>
+                <li>Pure Components</li>
+                <li>Lazy Loading</li>
+                <li>Virtualization (or Windowing)</li>
+                <li>Error Boundaries</li>
+                <li>Inline Functions</li>
+            </ul>
+
+            <p class=" texto 1h-base">
+                There are many more techniques available, but in this article, we will focus on 
+                the ones already mentioned.
+            </p>
+
+            <p class="text-center fw-bold">
+                . . .
+            </p>
+
+            <h5 class="fw-bold">Debouncing</h5>
+
+            <p class=" texto 1h-base">Debouncing is a programming technique used to optimize the processing of functions
+                 that consume a lot of execution time. This technique involves preventing those 
+                 functions from executing repeatedly without control, which helps improve the 
+                 performance of our applications.
+            </p>
+
+            <p class=" texto 1h-base">In the case of applications that must respond to certain user
+                 actions, we often cannot avoid certain functions from being executed repeatedly.
+                  For example, events such as <code>mousemove</code> or <code>window.resize</code> can trigger hundreds of calls 
+                  to these functions with a simple mouse movement or browser window resizing. It is in 
+                  these cases that we resort to techniques like Debouncing to limit these calls and
+                   solve performance issues that may be caused by such events or functions.
+            </p>
+
+            <p class=" texto 1h-base">The operation of Debouncing is quite simple. It involves creating
+                 a function that acts as an interceptor to limit the call to the callback function we
+                 want to optimize. This function will have at least two parameters: <code>time</code> and <code>callback.</code> 
+                 The <code>time</code> parameter is used to indicate to the Debounce how long the function should
+                  wait before being called, and the <code>callback</code> parameter is the function that will be 
+                  conditioned to this time limit. Once the control mechanism is created, the <code>debounce</code> 
+                  function returns a new optimized function that will serve in place of the original
+                   function.
+            </p>
+
+            <p class=" texto 1h-base">It is worth noting that in Debouncing, if multiple calls to the
+                 callback occur within the defined time window, only the last call will be considered
+                  for execution and the previous ones will be discarded. Additionally, while this is 
+                  happening, the time window will also be renewed each time a call occurs. For example, 
+                  if we define the time as 2 seconds, the callback defined in the <code>debounce</code> function will
+                   only be executed after 2 seconds. If multiple calls occur within the time window, the 
+                   time will be renewed for the same period, and only the last function that entered the 
+                   <code>debounce</code> function will be executed once the defined time is met.
+            </p>
+
+            <p class=" texto 1h-base">Here is a simple example of how to implement Debouncing in code
+                 using JavaScript:
+            </p>
+
+            <div class="card mb-3" style="width: 45rem;">
+                <div class="card-body">
+                    <pre class="language-html">
+                        // Example 1
+    
+                        const debounce = (callback, time = 300) => {
+                        let timer;
+    
+                        return () => {
+                            clearTimeout(timer);
+                            timer = setTimeout(callback, time);
+                            };
+                        };
+                      </pre>
+                </div>
+            </div>
+
+            <p class=" texto 1h-base">
+                In this simplified version, the <code>debounce</code> function returns another function that will
+                 handle the debounce. The returned function clears the timer variable of any previously
+                  created timeout and sets a new timeout with the <code>callback</code> it received as a parameter. 
+                  Each time the new debounced function is executed, it will access the same timer 
+                  variable, clear it, and replace the timeout each time.
+            </p>
+
+            <p class=" texto 1h-base">
+                Thus, we have created our debounce, and the way to use it would be as follows:
+            </p>
+
+            <div class="card mb-3" style="width: 45rem;">
+                <div class="card-body">
+                    <pre class="language-html">
+                        // Example 2
+
+                        // this is the function we want to debounce
+                        const showMessage = () => console.log("Hello Message");
+
+                        // this is the debounced function with 1 second of delay
+                        const debouncedMessage = debounce(showMessage, 1000);
+
+                        // we are calling it 10000 times in this loop
+                        for (let i = 0; i < 10000; i++) {
+                        setTimeout(debouncedMessage, i);
+                        }
+                      </pre>
+                </div>
+            </div>
+
+            <p class=" texto 1h-base">
+                In this example, the <code>debouncedMessage</code> function will be called 10,000 times in a <code>for</code> loop.
+                However, due to the debounce, the message will only be displayed once instead of 10,000
+                times.
+            </p>
+
+            <p class="text-center fw-bold">
+                . . .
+            </p>
+
+            <h5 class="fw-bold">Throttling</h5>
+
+            <p class=" texto 1h-base">
+                Throttling is a technique similar to debouncing, as both are used to limit the frequency of function
+                calls. The difference is that throttling does not clear the timer every time the function is called,
+                but instead uses a pause condition to avoid creating new timers. In other words, while the function
+                is being called, it will not wait until the last call to execute, but will only call the function 
+                if it enters the time interval where the pause is disabled.
+            </p>
+
+            <p class=" texto 1h-base">
+                Let’s see an example of this to better understand it:
+            </p>
+
+            <div class="card mb-3" style="width: 45rem;">
+                <div class="card-body">
+                    <pre class="language-html">
+                        // Example 3
+
+                        const throttle = (callback, time = 300) => {
+                        let pause = false;
+
+
+                        return () => {
+                            if (pause) return;
+                            pause = true;
+                            callback();
+                            setTimeout(() => {
+                            pause = false;
+                            }, time);
+                        };
+                        };
+                      </pre>
+                </div>
+            </div>
+            
+            <p class=" texto 1h-base">
+                In the above example, we can see that unlike debounce, we now have a <code>pause</code> variable instead of a timer, and the returned
+                 function now has different behavior. We can see that it now checks if the <code>pause</code> is <code>true</code> to return, which is basically to 
+                 prevent the rest of the code from executing, it is an escape clause. In case the execution is not interrupted in that 
+                 condition, what we will do is activate the pause, so that subsequent calls to this function will not be executed because
+                  the pause will be activated. Then, we have the call to the <code>callback,</code> and finally, we close the throttling process
+                   leaving a <code>setTimeout</code> to disable the pause when the time we have defined is fulfilled.
+            </p>
+
+            <p class=" texto 1h-base">
+                What will happen with throttling, as we explained earlier, is that we will be limiting the calling of our functions, but as long
+                as they continue to be called, they will be executed every certain amount of time. On the other hand, with «debouncing», what
+                happens is that it will be waiting for the last call to be able to execute the function only once.
+            </p>
+
+            <p class=" texto 1h-base">
+                For a better understanding, let’s see the following example:
+            </p>
+
+            <div class="card mb-3" style="width: 45rem;">
+                <div class="card-body">
+                    <pre class="language-html">
+                        // Example 4
+
+                        // this is the function we want to throttle
+                        const showMessage = () => console.log("Hello Message");
+
+                        // this is the throttled function with 1 second of delay
+                        const throttledMessage = throttle(showMessage, 1000);
+
+                        // we are calling it 10000 times in this loop
+                        for (let i = 0; i < 10000; i++) {
+                        setTimeout(throttledMessage, i);
+                        }
+                      </pre>
+                </div>
+            </div>
+
+            <p class=" texto 1h-base">
+                In the case of debouncing, the message was only displayed once because, in each execution, the timeout was renewed until 
+                the last call lasted 10 seconds (10,000 milliseconds). In contrast, for throttling, the message was displayed 10 times,
+                once every second (1000 milliseconds), due to the pause that conditions its execution. As you can see, both techniques
+                have the same goal but are slightly different in code and behavior. This slight difference allows us to choose one
+                mechanism or another depending on the circumstances. That is why it is important to know these two techniques to know
+                when to implement one or the other and thus correctly optimize our code.
+            </p>
+
+            <p class="text-center fw-bold">
+                . . .
+            </p>
+
+        </article>
+
+        <footer class=" footer p-3 border-light-subtle bg-opacity-10 border-top">
+            <div class="letter">
+                <a href="">Help</a>
+                <a href="">Status</a>
+                <a href="">About</a>
+                <a href="">Careers</a>
+                <a href="">Blog</a>
+                <a href="">Privacity</a>
+                <a href="">Terms</a>
+                <a href="">Text to speech</a>
+                <a href="">Teams</a>
+            </div>
+        </footer>
+    </div>
+
+  </body>
+</html>

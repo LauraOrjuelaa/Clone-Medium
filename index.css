@@ -1,0 +1,78 @@
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    font-size: 24px;
+}
+
+.image{
+    border-radius: 50%;
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px;
+    max-width: 950px;
+}
+
+.edit{
+    color: #777;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    margin-left: 300px;
+}
+
+.name{
+    text-decoration: none;
+    color: black;
+}
+
+.follow{
+    text-decoration: none;
+    color: green;
+}
+
+.send{
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 24px;
+    
+}
+
+
+.code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article{
+    margin-top: 2%;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: larger;
+}
+
+.footer{
+    margin-top: 2%;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: small;
+
+}
+
+.letter a{
+    color: #777; 
+    margin: 0 10px; 
+    text-decoration: none;
+}
+
